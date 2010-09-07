@@ -1,0 +1,70 @@
+@import url(screen.css);
+
+body {
+	background-color:#820007;
+	color:#fff;
+}
+
+p {
+	margin:0 0 0.5em;
+	
+}
+
+.confirm {
+	padding:1.4em 20px 0.5em 60px;
+}
+
+input.text, input.title {
+	width:167px;
+}
+
+#container fieldset {
+	border:none;
+	padding:1.4em 20px 0.5em 60px;
+}
+
+#container label {
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	float:left;
+	margin:0.5em 0;
+	padding:5px;
+	width:150px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.8);
+	cursor:pointer;
+}
+
+h1,h2 {
+	position:absolute;
+	top:-9999px;
+	left:0;
+	color:#fff;
+}
+
+input,select {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+select {
+	padding:5px;
+}
+
+select:focus,
+input.text:focus {
+	background-color:#fff6bf;
+}
+
+p.submit input {
+	margin-left:160px;
+	padding:5px;
+	border:none;
+	background-color:#000;
+	color:#fff;
+	-webkit-box-shadow:0 0 5px rgba(255, 255, 255, 0.7);
+	-moz-box-shadow:0 0 5px rgba(255, 255, 255, 0.7);
+	-o-box-shadow:0 0 5px rgba(255, 255, 255, 0.7);
+	box-shadow:0 0 5px rgba(255, 255, 255, 0.7);
+}
